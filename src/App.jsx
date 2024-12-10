@@ -3,6 +3,8 @@ import SearchPage from "./components/SearchPage";
 import ResultsPage from "./components/ResultsPage";
 import SavedResultsPage from "./components/SavedResultsPage";
 import Navbar from "./components/Navbar";
+import './App.css';
+
 
 function App() {
     return (

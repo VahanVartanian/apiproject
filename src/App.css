@@ -1,42 +1,115 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fef6e4; 
+  color: #333; 
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #fa744f; 
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 20px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.button {
+  padding: 10px 20px;
+  background-color: #fa744f; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.button:hover {
+  background-color: #e8603a; 
 }
 
-.card {
-  padding: 2em;
+.button.remove {
+  background-color: #d9534f;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.button.remove:hover {
+  background-color: #c4403d; 
+}
+
+
+.input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; 
+  color: #333;
+}
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-item {
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s;
+}
+
+.list-item:hover {
+  transform: scale(1.05); 
+}
+
+.list-item img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.list-item h3 {
+  margin: 10px 0;
+  color: #fa744f; 
 }
