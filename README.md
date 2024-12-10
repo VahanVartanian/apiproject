@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is the Recipe Finder App.  A React.js project that allows users to search for meals, view detailed recipes, and save their favorite meals. The app fetches data from TheMealDB API to provide users with information about meals, images, areas, and preparation instructions. One of the biggest challenges I faced during this project was finding a functional API that met the needs of the app. I initially tried multiple APIs, but many of them had issues, such as lacking CORS support or some features locked behind paywalls, which made them hard to use for the project. Users can search for meals by entering keywords or letters, view detailed information about specific meals, and save their favorites via local storage. To run the app, install the required packages with npm install, and start the development server with npm run dev. 

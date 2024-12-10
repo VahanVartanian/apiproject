@@ -113,3 +113,8 @@ nav a {
   margin: 10px 0;
   color: #fa744f; 
 }
+
+
+.results-container {
+  min-width: unset; 
+}

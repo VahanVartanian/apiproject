@@ -33,7 +33,7 @@ function ResultsPage() {
     }
 
     return (
-        <div className="container">
+        <div className="container results-container">
             <h1>{meal.strMeal}</h1>
             <img src={meal.strMealThumb} alt={meal.strMeal} className="image" />
             <p><strong>Category:</strong> {meal.strCategory}</p>
